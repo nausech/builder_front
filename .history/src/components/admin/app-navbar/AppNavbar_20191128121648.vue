@@ -7,6 +7,7 @@
         <!--class="va-navbar__item"-->
         <!--:navbar-view.sync="navbarViewProxy"-->
       <!--/>-->
+      <language-dropdown class="va-navbar__item"/>
       <profile-dropdown class="va-navbar__item">
         <span>{{userName}}</span>
       </profile-dropdown>

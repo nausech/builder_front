@@ -2,11 +2,14 @@
   <va-navbar class="app-navbar">
     <header-selector slot="selector" :minimized.sync="minimizedProxy"/>
     <div class="app-navbar__actions row flex-nowrap align--center">
+      <color-dropdown class="va-navbar__item"/>
+      <message-dropdown class="va-navbar__item"/>
       <notification-dropdown class="va-navbar__item"/>
       <!--<settings-dropdown-->
         <!--class="va-navbar__item"-->
         <!--:navbar-view.sync="navbarViewProxy"-->
       <!--/>-->
+      <language-dropdown class="va-navbar__item"/>
       <profile-dropdown class="va-navbar__item">
         <span>{{userName}}</span>
       </profile-dropdown>

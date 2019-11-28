@@ -61,7 +61,6 @@ export default {
 <style lang="scss">
 .tittle {
   font-size: 50px;
-  color: #afe92b;
 }
 .auth-layout {
   min-height: 100vh;

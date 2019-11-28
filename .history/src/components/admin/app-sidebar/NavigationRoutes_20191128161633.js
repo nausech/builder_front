@@ -11,7 +11,7 @@ export const navigationRoutes = {
         iconClass: 'vuestic-iconset-dashboard',
       },
     },
-    /* {
+    /*{
       name: 'statistics',
       displayName: 'menu.statistics',
       meta: {
@@ -28,7 +28,7 @@ export const navigationRoutes = {
           displayName: 'menu.progressBars',
         },
       ],
-    }, */
+    },*/
     {
       name: 'obras',
       displayName: 'Obras',
@@ -41,13 +41,13 @@ export const navigationRoutes = {
           name: 'gestion_obras',
           displayName: 'Consultar obras',
         },
-        /* {
+        /*{
           name: 'medium-editor',
           displayName: 'menu.mediumEditor',
-        }, */
+        },*/
       ],
     },
-    /* {
+   /* {
       name: 'tables',
       displayName: 'menu.tables',
       meta: {
@@ -63,8 +63,8 @@ export const navigationRoutes = {
           displayName: 'menu.dataTables',
         },
       ],
-    }, */
-    /* {
+    },*/
+    /*{
       name: 'ui',
       displayName: 'menu.uiElements',
       meta: {
@@ -117,8 +117,8 @@ export const navigationRoutes = {
               name: 'icon-set',
             },
           ],
-        }, */
-    /* {
+        },*/
+        /*{
           name: 'lists',
           displayName: 'menu.lists',
         },
@@ -167,8 +167,8 @@ export const navigationRoutes = {
           displayName: 'menu.typography',
         },
       ],
-    }, */
-    /* {
+    },*/
+    /*{
       name: 'maps',
       displayName: 'menu.maps',
       meta: {
@@ -215,6 +215,6 @@ export const navigationRoutes = {
           displayName: '404 Pages',
         },
       ],
-    }, */
+    },*/
   ],
 }

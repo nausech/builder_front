@@ -114,9 +114,9 @@ export default new Router({
           component: EmptyParentComponent,
           children: [
             {
-              name: 'gestion_obras',
-              path: 'forms',
-              component: () => import('../components/forms/Obras.vue'),
+              name: 'Gestión',
+              path: 'form-elements',
+              component: () => import('../components/forms/obras.vue'),
               meta: {
                 wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/inputs',
               },

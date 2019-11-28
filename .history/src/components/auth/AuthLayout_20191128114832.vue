@@ -1,7 +1,7 @@
 <template>
 <div class="auth-layout row align-content--center">
   <div class="flex xs12 pa-3 flex-center">
-    <div class="d-flex justify--center">
+    <div class="py-5 flex-center" to="/">
       <h1 class="tittle">{{$t('BUILDER ACCOUNTANT')}}</h1>
     </div>
   </div>
@@ -59,10 +59,6 @@ export default {
 </script>
 
 <style lang="scss">
-.tittle {
-  font-size: 50px;
-  color: #afe92b;
-}
 .auth-layout {
   min-height: 100vh;
   background-image: linear-gradient(to right, #0e4ac4, #002c85);

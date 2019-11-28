@@ -59,10 +59,6 @@ export default {
 </script>
 
 <style lang="scss">
-.tittle {
-  font-size: 50px;
-  color: #afe92b;
-}
 .auth-layout {
   min-height: 100vh;
   background-image: linear-gradient(to right, #0e4ac4, #002c85);
